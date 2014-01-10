@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dropdowns</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="dropdowns.css">
+	<link rel="stylesheet" type="text/css" href="dropdowns-skin-discrete.css">
+	
+	<link rel="stylesheet" type="text/css" href="box-extension.css">
+	
+</head>
+<body>
+<div class="dropdowns">
+	
+<a class="toggleMenu" href="#">Menu</a>
+<ul class="nav">
+	<li>
+		<a href="#">Shoes</a>
+		<div>
+			<p>Test</p>
+		</div>
+	</li>
+	<li>
+		<a href="#">Shirts</a>
+		<ul>
+			<li>
+				<a href="#">Mens</a>
+			</li>
+			<li>
+				<a href="#">Womens</a>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#">Pants</a>
+		<ul>
+			<li>
+				<a href="#">Mens</a>
+			</li>
+			<li>
+				<a href="#">Womens</a>
+			</li>
+		</ul>
+	</li>
+	
+	
+	
+	<li>
+		<a href="#">Accessories</a>
+		<ul>
+			<li>
+				<a href="#">Womens</a>
+			</li>
+			<li>
+				<a href="#">Mens</a>
+				<ul>
+					<li><a href="#">Belts</a></li>
+					<li><a href="#">Hats</a></li>
+					<li><a href="#">Eyewear</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#">Outerwear</a>
+		<ul>
+			<li>
+				<a href="#">Womens</a>
+				<ul>
+					<li><a href="#">Winter</a></li>
+					<li><a href="#">Spring/Fall</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Mens</a>
+				<ul>
+					<li><a href="#">Winter</a></li>
+					<li><a href="#">Spring/Fall</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#">Shipping Info</a>
+	</li>
+</ul>
+</div>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="dropdowns.js"></script>
+<script>
+	 $(".dropdowns").dropdowns();
+</script>
+</body>
+</html>

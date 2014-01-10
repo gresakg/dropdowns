@@ -1,0 +1,25 @@
+/* 
+    Created on : 10.1.2014, 22:10:19
+    Author     : gregor
+*/
+
+.nav li  div {
+    position: absolute;
+    left: -9999px;
+	background-color: purple;
+		width:800px;
+}
+
+.nav > li.hover > div {
+    left: 0;
+}
+
+.nav > li.hover > div > ul {
+    left: 0;
+}
+
+.nav li li.hover div {
+    left: 100%;
+    top: 0;
+}
+
